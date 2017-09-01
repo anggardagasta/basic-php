@@ -19,6 +19,9 @@ class Cart
 		}
 	}
 
+	/**
+	* @param string $productCode
+	*/
 	public function removeProduct($productCode)
 	{
 		if (isset($this->products[strtolower($productCode)])) {
